@@ -1,0 +1,101 @@
+/*---Css start---*/
+*{
+  box-sizing: border-box;
+}
+
+/*---Header---*/
+
+.container{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+#header-nav{
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#header-nav h1{
+  color: black;
+  padding: 0;
+  margin: 0;
+  width:100%;
+}
+
+.navbar-brand{
+  height:100%;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-default button.navbar-toggle{
+  border: 2px solid black;
+  margin:12px 5px 8px;
+}
+
+.navbar-default button.navbar-toggle span.icon-bar{
+  background-color: black;
+  width:34px;
+  height:8px;
+}
+
+#collapsable-nav{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#nav-list{
+  margin-top: 10px;
+  border: 3px solid black;
+  margin:0;
+}
+
+#nav-list li{
+  text-align: center;
+  border: 1px solid black;
+}
+
+#nav-list a{
+  color:black;
+}
+
+/*---Header End---*/
+
+/*---Main Body---*/
+
+h2{
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 300;
+ }
+
+.container-fluid section{
+  background-color: gray;
+  color: black;
+  height: 1000px;
+}
+
+.container-fluid h3{
+  text-align: center;
+  font-weight: 200;
+}
+
+@media (max-width:767px){
+  .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/*---Main Body end---*/
+/*---Css End---*/
+
+
+
