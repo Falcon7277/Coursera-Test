@@ -11,11 +11,11 @@
 (function (global) {
   var helloSpeaker = {};
   var speakWord = "Hello";
-
+  global.helloSpeaker = helloSpeaker;
+  
   helloSpeaker.speak = function (name) {
     console.log(speakWord + " " + name);
   }
-  global.helloSpeaker = helloSpeaker;
 
 })(window);
 
